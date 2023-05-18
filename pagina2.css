@@ -8,7 +8,7 @@ body{
     background-color: #ffffff;
 }
 
-.caja-formulario{
+.Caja-CuentaNueva{
     background-color: rgb(74, 183, 197);
     width: 400px;
     height: fit-content;
@@ -22,25 +22,25 @@ body{
  
 }
 
-.caja-formulario h1{
+.Caja-CuentaNueva h1{
     color: #0a0a0a;
     letter-spacing: 1px;
     font-size: 32px;
     margin: 8px 0;
 }
 
-.caja-formulario form{
+.Caja-CuentaNueva form{
     display: flex;
     flex-direction: column ;
 }
 
-.caja-formulario form label{
+.Caja-CuentaNueva form label{
     color: #040404;
     font-weight: 600;/*ancho de la letra*/
 }
 
-.caja-formulario form input[type="text"],
-.caja-formulario form input[type="password"]{
+.Caja-CuentaNueva form input[type="text"],
+.Caja-CuentaNueva form input[type="password"]{
     background-color: transparent;
     border: none;
     border-bottom: 2px solid rgb(255, 255, 255);
@@ -50,18 +50,18 @@ body{
     transition: 0.5s;
 }
 
-.caja-formulario form input[type="text"]::placeholder,
-.caja-formulario form input[type="password"]::placeholder{
+.Caja-CuentaNueva form input[type="text"]::placeholder,
+.Caja-CuentaNueva form input[type="password"]::placeholder{
     color: rgb(0, 0, 0);
 
 }
 
-.caja-formulario form input[type="text"]:focus,
-.caja-formulario form input[type="password"]:focus{
+.Caja-CuentaNueva form input[type="text"]:focus,
+.Caja-CuentaNueva form input[type="password"]:focus{
     border-color: white;
 }
 
-.caja-formulario form input[type="submit"]{
+.Caja-CuentaNueva form input[type="submit"]{
     width: 200px;
     margin: 12px auto;
     padding: 8px;
@@ -71,20 +71,20 @@ body{
     box-shadow: 2px 2px 8px rgb(29, 29, 29);
 }
 
-.caja-formulario form input[type="submit"]:hover{
+.Caja-CuentaNueva form input[type="submit"]:hover{
     background-color: rgb(225, 218, 197);
     cursor: pointer;
 }
-.caja-formulario form input[type="submit"]:active{
+.Caja-CuentaNueva form input[type="submit"]:active{
     box-shadow: 0px 0px 0px;
 }
 
-.caja-formulario a{
+.Caja-CuentaNueva a{
     color: rgb(0, 0, 0);
     text-decoration: none;
 
 }
 
-.caja-formulario a:hover{
+.Caja-CuentaNueva a:hover{
     color: #000000;
 }
