@@ -88,3 +88,9 @@ body{
 .Caja-CuentaNueva a:hover{
     color: #000000;
 }
+
+body{
+    background-image: url(Schule_Vokabeln_lernen-650x433.jpg);
+    background-size: cover;
+    background-position: bottom;
+}

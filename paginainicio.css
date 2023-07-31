@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",arial,sans-serif;/*solucion Ej13*/
+}
+
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enlaces{
+    width: 70%;
+    height: 300%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 12px;
+}
+
+
+nav .menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+nav .menu ul li{
+   
+     list-style: none; 
+    margin-right: 25px;
+}
+nav a{
+    
+    text-decoration: none; 
+   
+    color: #175ba3;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+
+.menu ul li a:hover, .ingresar:hover, .botonAzul:hover{
+    color: #82b8f2;
+}
+
+.menu ul:hover a:not(:hover){
+    color:#918a8d;
+}
+
+.botonCrearTienda{
+    
+    border-left: 2px solid color rgba(84, 44, 87, 0.1);
+   
+    padding-left: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+ .ingresar{
+    color:#918a8d;
+    
+    margin-right:  20px; ;
+    padding: 13px 23px;
+    background-color: #006bc8;
+    font-weight: 750;
+    border-radius: 50px;
+    color: white;
+    width: fit-content;
+    text-decoration: none;
+}
+
+
+
+.botonAzul{
+    padding: 13px 23px;
+    background-color: #006bc8;
+    font-weight: 750;
+    border-radius: 50px;
+    color: white;
+    width: fit-content;
+    text-decoration: none;
+}
+
+
+header{
+    width: 100%;
+    display: flex;
+   
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header .texto{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.texto h1{
+    color:#175ba3;
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: -90px;
+}
+.texto p{
+    font-weight: 400;
+    color: #473c41;
+    letter-spacing: .216px;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+
+.imagenHeader{
+    width: 700px;
+}
+
+
+.imagenHeader img{
+    width: 100%;
+    margin-left: 20px;
+}
+
