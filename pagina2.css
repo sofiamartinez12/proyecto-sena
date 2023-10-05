@@ -9,7 +9,7 @@ body{
 }
 
 .Caja-CuentaNueva{
-    background-color: rgb(74, 183, 197);
+    background-color:#ffffff  ;
     width: 400px;
     height: fit-content;
     display: flex;
@@ -18,7 +18,7 @@ body{
     padding: 18px;
     margin: 12% auto;
     border-radius: 20px;
-    box-shadow: 2px 5px 2px rgb(53, 146, 158);
+   
  
 }
 
@@ -58,21 +58,23 @@ body{
 
 .Caja-CuentaNueva form input[type="text"]:focus,
 .Caja-CuentaNueva form input[type="password"]:focus{
-    border-color: white;
+    border-color: #006bc8;
 }
 
-.Caja-CuentaNueva form input[type="submit"]{
+.Caja-CuentaNueva form .boton{
     width: 200px;
     margin: 12px auto;
     padding: 8px;
     border-radius: 20px;
     border: none;
-    background-color: #ffffff;
+    background-color: #006bc8;
     box-shadow: 2px 2px 8px rgb(29, 29, 29);
+    color: white;
+    text-align: center;
 }
 
 .Caja-CuentaNueva form input[type="submit"]:hover{
-    background-color: rgb(225, 218, 197);
+    background-color: rgb(113, 198, 251);
     cursor: pointer;
 }
 .Caja-CuentaNueva form input[type="submit"]:active{
@@ -90,7 +92,6 @@ body{
 }
 
 body{
-    background-image: url(Schule_Vokabeln_lernen-650x433.jpg);
-    background-size: cover;
-    background-position: bottom;
+    background-color:#175ba3 ;
+    
 }

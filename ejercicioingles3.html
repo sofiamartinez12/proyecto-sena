@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicioingles3.css">
+    
+    <title>Fun English Activities for Little Ones</title>
+    
+    </head>
+    <body>
+      <h1>Let's Have Fun with English Activities!</h1>
+      
+      <div class="activity">
+        <h2>Animal Name Matching Activity</h2>
+        <p>Drag and drop the animal names to match them with the correct picture</p>
+        <div class="word-list" id="wordList">
+          <ol>
+            <li>Giraffe</li>
+            <li>Tiger</li>
+            <li>Lion</li>
+            <li>Kangaroo</li>
+            <li>Elephant</li>
+            <li>Monkey</li>
+          </ol>
+            <!-- <div class="word" draggable="true">Lion</div>
+            <div class="word" draggable="true">Elephant</div>
+            <div class="word" draggable="true">Giraffe</div>
+            <div class="word" draggable="true">Monkey</div>
+            <div class="word" draggable="true">Tiger</div>
+            <div class="word" draggable="true">Kangaroo</div> -->
+          </div>
+          <div id="imageArea">
+            <!-- Images with IDs corresponding to animal names -->
+            <input type="number" min="1" max="6"id="one">
+            <label for="" id="labelOne"></label>
+            <img id="Lion" src="leon pag.png" alt="Lion">
+            
+            <input type="number" min="1" max="6"id="two">
+            <label for="" id="labelTwo"></label>
+            <img id="Elephant" src="elefante pag.jpg" alt="Elephant">
+            
+            <input type="number" min="1" max="6" id="three">
+            <label for="" id="labelThree"></label>
+            <img id="Giraffe" src="girafa pag.jpg" alt="Giraffe">
+            
+            <input type="number" min="1" max="6" id="four">
+            <label for="" id="labelFour"></label>
+            <img id="Monkey" src="mono pag.jfif" alt="Monkey">
+            
+            <input type="number" min="1" max="6" id="five">
+            <label for="" id="labelFive"></label>
+            <img id="Tiger" src="tigre pag.jfif" alt="Tiger">
+            
+            <input type="number" min="1" max="6" id="six">
+            <label for="" id="labelSix"></label>
+            <img id="Kangaroo" src="kangoroo pag.jfif" alt="Kangaroo">
+            
+          </div>
+          <button id="btnVerificar">Check</button>
+       
+      </div>
+      
+      <div class="activity">
+        <h2>Complete the story</h2>
+        <p>Complete the activity based on the video of the 3 little pigs and complete the text with the words</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BIqeXyAFsRE?si=F-VByXoCJDqiHv0a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <li>the best way</li>
+        <li>bad wolf</li>
+        <li>house made</li>
+        <li>to finish</li>
+        <p>Once upon a time deep inside the forest there were three little team of brothers like anyone else in the forest the three peaks were scared of the big  <input id="p1" type="text" placeholder="escrie aqui">     which have been trying to hit them all at all one day they decide <input id="p2" type="text">   to protect themselves from that menace was building a house for which one the youngest one of them which wanted  <input type="text" id="p3">  as soon as possible so we could go to play build a  <input type="text" id="p4">  of Straw and his brother</p>
+        <button id="btnVerificar2"> Check</button>
+      </div>
+      
+      
+      <script>
+
+        let verificarBtn = document.getElementById("btnVerificar");
+
+        verificarBtn.addEventListener("click", function(){
+
+          if(document.getElementById("one").value == 3){
+            document.getElementById("labelOne").innerHTML="Correct";
+          }else{
+            document.getElementById("labelOne").innerHTML="Incorrect";
+          }
+
+          if(document.getElementById("two").value == 5){
+            document.getElementById("labelTwo").innerHTML="Correct";
+          }else{
+            document.getElementById("labelTwo").innerHTML="Incorrect";
+          }
+
+          if(document.getElementById("three").value == 1){
+            document.getElementById("labelThree").innerHTML="Correct";
+          }else{
+            document.getElementById("labelThree").innerHTML="Incorrect";
+          }
+
+          if(document.getElementById("four").value == 6){
+            document.getElementById("labelFour").innerHTML="Correct";
+          }else{
+            document.getElementById("labelFour").innerHTML="Incorrect";
+          }
+
+          if(document.getElementById("five").value == 2){
+            document.getElementById("labelFive").innerHTML="Correct";
+          }else{
+            document.getElementById("labelFive").innerHTML="Incorrect";
+          }
+
+          if(document.getElementById("six").value == 4){
+            document.getElementById("labelSix").innerHTML="Correct";
+          }else{
+            document.getElementById("labelSix").innerHTML="Incorrect";
+          }
+        });
+
+        let verificarBtn2 = document.getElementById("btnVerificar2");
+        verificarBtn2.addEventListener("click", function(){
+
+          if(document.getElementById("p1").value == "bad wolf"){
+            document.getElementById("p1").style.backgroundColor="green";
+          }else{
+            document.getElementById("p1").style.backgroundColor="red";
+
+          }
+          if(document.getElementById("p2").value == "the best way"){
+            document.getElementById("p2").style.backgroundColor="green";
+          }else{
+            document.getElementById("p2").style.backgroundColor="red";
+
+          }
+
+          if(document.getElementById("p3").value == "to finish"){
+            document.getElementById("p3").style.backgroundColor="green";
+          }else{
+            document.getElementById("p3").style.backgroundColor="red";
+
+          }
+
+          if(document.getElementById("p4").value == "house made"){
+            document.getElementById("p4").style.backgroundColor="green";
+          }else{
+            document.getElementById("p4").style.backgroundColor="red";
+
+          }
+        });
+        
+      </script>
+    </body>
+    </html> 
